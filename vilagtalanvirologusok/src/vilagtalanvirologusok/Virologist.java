@@ -3,7 +3,8 @@ package vilagtalanvirologusok;
 import java.util.List;
 
 /**
- *
+ * A játékos illetve a számítógép által irányított karakterek.
+ * A támadások, alapanyag\felszerelés felvételért és a irányításért felelős objektum.
  */
 public class Virologist implements Steppable{
     public void Touch(Virologist v, Agent a){
